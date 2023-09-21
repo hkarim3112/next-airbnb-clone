@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "http://localhost:3000";
+const apiUrl = "https://next-airbnb-clone-amber.vercel.app/api";
 const jwtKey = "accessToken";
 
 axios.interceptors.request.use(
